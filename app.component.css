@@ -1,0 +1,17 @@
+.toolbar-link {
+    margin-right: 16px; /* Adjust spacing as needed */
+  }
+  mat-toolbar{
+    background-color: rgba(8, 0, 255, 0.55);
+    color:white;
+  }
+  .active-link{
+    /* color: white; */
+    text-decoration: underline; 
+    color: white; 
+  }
+  mat-toolbar span:not(.active-link):hover {
+    /* text-decoration: underline;  */
+    color: white;
+  }
+  
